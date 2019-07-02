@@ -10,9 +10,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-```
-blabla
-```
+A number of prequisites need to be considered:
+• Laptop with sufficient diskspace (Core I5,GPU)
+• Virtualbox environment
+• Windows or Linux environment
+• Linux experience
+• Physics background
+
 
 ### Installing
 
@@ -32,4 +36,5 @@ How to run ?
 
 * **Kevin OGIER** - [GitHub](https://github.com/KevinOGIER)
 * **Céline MARIN** - [GitHub](https://github.com/GeekyGodess)
+* **Kostis Thanos** - [GitHub](https://github.com/kostis95)
 
