@@ -1,8 +1,3 @@
-This is a test !
-Kevin OGIER
-
-
-
 # Astronomy data visualization Milky Way and integration radio astronomy Pulsar data
 
 blablabla 
@@ -31,9 +26,9 @@ How to run ?
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [blala](link) - blabla
 
 ## Authors
 
-* **Kevin OGIER** - [Kevin Ogier](https://github.com/KevinOGIER)
+* **Kevin OGIER** - [GitHub](https://github.com/KevinOGIER)
 
