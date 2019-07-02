@@ -35,5 +35,5 @@ How to run ?
 
 ## Authors
 
-* **Kevin OGIER** - *Initial work* - [Kevin Ogier](https://github.com/KevinOGIER)
+* **Kevin OGIER** - [Kevin Ogier](https://github.com/KevinOGIER)
 
