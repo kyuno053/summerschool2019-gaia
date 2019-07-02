@@ -31,4 +31,5 @@ How to run ?
 ## Authors
 
 * **Kevin OGIER** - [GitHub](https://github.com/KevinOGIER)
+* **Céline MARIN** - [GitHub](https://github.com/GeekyGodess)
 
