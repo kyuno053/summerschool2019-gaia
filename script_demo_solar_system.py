@@ -1,6 +1,6 @@
 # Welcome script to be run asynchronously.
 # This script is executed when the GaiaSandbox is first started.
-# Created by Toni Sagrista
+# Created by Gaia Summer School team
 
 from gaia.cu9.ari.gaiaorbit.script import EventScriptingInterface
 
