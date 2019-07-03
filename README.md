@@ -44,10 +44,13 @@ https://zah.uni-heidelberg.de/institutes/ari/gaia/outreach/gaiasky/downloads/
   
 It is is installed by unpacking into theApplications folder. Once unpacked, it is ready to run by simply clicking on it.  
 
-## Scripts ?
+## Scripts 
 
-Scripts can be run by pressing the little car button in the control panel and then selecting the script you want to run,
-lastly pressing the "run" - button runs the script.
+In order to run Python scripts, click on the Run script button (the little car) at the bottom of the GUI window. A new
+window will pop up allowing you to select the script you want to run. Once you have selected it, press run. The script will be
+checked for errors. If no errors were found, you will be notified in the box below and you’ll be able to run the script
+right away by clicking on the Run button. If the script contains errors, you will be notified in the box below and you
+will not be able to run the script until these errors are dealt with.
 
 ## Built With
 
