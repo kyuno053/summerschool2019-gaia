@@ -13,23 +13,22 @@ What things you need to install the software and how to install them
 A number of prequisites need to be considered:
 • Laptop with sufficient diskspace (Core I5,GPU)
 • Virtualbox environment
-• Windows or Linux environment
+• Windows/Linux/MAC OS environment
 • Linux experience
-• Physics background
-
 
 ### Installing
 
-blabla
-
+One can install the Gaia Sky program with the following link: https://gaia-sky.readthedocs.io/en/latest/Downloads.html#
+The scripts and showcases can be found here: https://gitlab.com/langurmonkey/gaiasky/tree/master/assets/scripts
 
 ## Scripts ?
 
-How to run ?
-
+Scripts can be run by pressing the little car button in the control panel and then selecting the script you want to run,
+lastly pressing the "run" - button runs the script.
 
 ## Built With
 
+Gaia Sky
 * [blala](link) - blabla
 
 ## Authors
