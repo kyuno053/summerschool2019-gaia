@@ -10,11 +10,11 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them.
 A number of prequisites need to be considered:
 
-Operating system Linux / Windows 7+ / macOS/ Virtualbox environment
-CPU Intel Core i5 3rd Generation or similar
-GPU Intel HD 4000, Nvidia GeForce 9800 GT, Radeon HD 5670 / 1 GB VRAM / OpenGL 3.0
-Memory 4+ GB RAM
-Hard drive 1 GB of free disk space
+Operating system Linux / Windows 7+ / macOS/ Virtualbox environment  
+CPU Intel Core i5 3rd Generation or similar  
+GPU Intel HD 4000, Nvidia GeForce 9800 GT, Radeon HD 5670 / 1 GB VRAM / OpenGL 3.0  
+Memory 4+ GB RAM  
+Hard drive 1 GB of free disk space  
 
 ### Installing
 
