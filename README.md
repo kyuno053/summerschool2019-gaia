@@ -24,8 +24,13 @@ The scripts and showcases can be found here: https://gitlab.com/langurmonkey/gai
 #### Installation on Windows
 To download the installer depending on your architecture (32 or 64 bits), select the good one following this link: https://zah.uni-heidelberg.de/institutes/ari/gaia/outreach/gaiasky/downloads/ 
 You just have to follow instructions of the graphical interface.
-If you want to add or edit scripts, be sure to have Python >= 2.7 installed on your computer with the right path
 
+#### Instalation on Debian based systems (Linux)
+Download the installer script with this command
+` wget http://gaia.ari.uni-heidelberg.de/gaiasky/files/releases/2.1.7.a67779dc/gaiasky_unix_2_1_7_a67779dc.sh`
+
+Then run the script and follow the installer instructions
+` sh ./gaiasky_unix_2_1_7_a67779dc.sh`
 
 ## Scripts ?
 
