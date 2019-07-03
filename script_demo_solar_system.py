@@ -15,6 +15,11 @@ def showAnObject( obj, msg ):
     
     return;
 
+def zoomOut():
+    gs.setCameraFocus("Earth")
+    gs.goToObject("Earth",0.00000000005,5)
+    return;
+
 # Disable input
 gs.disableInput()
 gs.cameraStop()
@@ -22,8 +27,7 @@ gs.minimizeInterfaceWindow()
 
 # Welcome
 gs.setCinematicCamera(True)
-gs.setHeadlineMessage("Welcome to the Gaia Sky")
-gs.setSubheadMessage("Explore Gaia, the Solar System and the whole Galaxy!")
+gs.setHeadlineMessage("A long time ago in a galaxy far, far away....")
 gs.sleep(2)
 
 # Sun
@@ -60,21 +64,13 @@ showAnObject( obj="Neptune", msg="This is Neptune")
 #Pluto
 showAnObject( obj="Pluto", msg="This is Pluto ... and it is not a planet anymore :( ")
 
+zoomOut()
+
 # Maximize interface and enable input
 gs.clearAllMessages()
 gs.maximizeInterfaceWindow()
 gs.enableInput()
 
 '''
-gs.cameraStop()
-gs.setRotationCameraSpeed(20)
-gs.setTurningCameraSpeed(20)
-gs.setCameraSpeed(20)
-gs.setPlanetariumMode(True)
-gs.goToObject("Earth", 20.0, 4.5)
-gs.sleep(4.0)
-gs.setCameraFocus("Sol")
-gs.sleep(3)
-gs.setPlanetariumMode(False)
 gs.enableInput()
 '''
