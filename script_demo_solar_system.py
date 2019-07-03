@@ -1,4 +1,4 @@
-# Created by Kevin OGIER, nicolas LEFEBVRE
+# 
 from gaia.cu9.ari.gaiaorbit.script import EventScriptingInterface
 gs = EventScriptingInterface.instance()
 
