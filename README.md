@@ -22,10 +22,12 @@ One can install the Gaia Sky program with the following link: https://gaia-sky.r
 The scripts and showcases can be found here: https://gitlab.com/langurmonkey/gaiasky/tree/master/assets/scripts
 
 #### Installation on Windows
+
 To download the installer depending on your architecture (32 or 64 bits), select the good one following this link: https://zah.uni-heidelberg.de/institutes/ari/gaia/outreach/gaiasky/downloads/ 
 You just have to follow instructions of the graphical interface.
 
 #### Instalation on Debian based systems (Linux)
+
 Download the installer script with this command
 
 ` wget http://gaia.ari.uni-heidelberg.de/gaiasky/files/releases/2.1.7.a67779dc/gaiasky_unix_2_1_7_a67779dc.sh`
@@ -33,6 +35,14 @@ Download the installer script with this command
 Then run the script and follow the installer instructions
 
 ` sh ./gaiasky_unix_2_1_7_a67779dc.sh`
+
+#### Installation on Mac OS
+
+For macOS Gaia Sky provides a gaiasky_macos_<version>.dmg file below  
+
+https://zah.uni-heidelberg.de/institutes/ari/gaia/outreach/gaiasky/downloads/
+  
+It is is installed by unpacking into theApplications folder. Once unpacked, it is ready to run by simply clicking on it.  
 
 ## Scripts ?
 
