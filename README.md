@@ -27,9 +27,11 @@ You just have to follow instructions of the graphical interface.
 
 #### Instalation on Debian based systems (Linux)
 Download the installer script with this command
+
 ` wget http://gaia.ari.uni-heidelberg.de/gaiasky/files/releases/2.1.7.a67779dc/gaiasky_unix_2_1_7_a67779dc.sh`
 
 Then run the script and follow the installer instructions
+
 ` sh ./gaiasky_unix_2_1_7_a67779dc.sh`
 
 ## Scripts ?
