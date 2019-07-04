@@ -49,7 +49,7 @@ showAnObject( obj="Venus", msg="This is Venus")
 showAnObject( obj="Earth", msg="This is our planet, the Earth")
 
 #Mars
-showAnObject( obj="Mars", msg="This is Mars")
+showAnObject( obj="Mars", msg="This is Mars.... everyone wants to go there")
 
 #Jupiter
 showAnObject( obj="Jupiter", msg="This is Jupiter")
