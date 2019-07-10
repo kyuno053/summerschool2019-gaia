@@ -79,7 +79,11 @@ When both are combined, these astronomical coordinates specify the direction of 
 ## Built With
 
 Gaia Sky
-* [blala](link) - blabla
+* [PyCharm](https://www.jetbrains.com/pycharm/?fromMenu) - JetBrain's Python IDE
+* [Intellij Idea](https://www.jetbrains.com/idea/?fromMenu) - JetBrain's Java IDE
+* [Xcode](https://developer.apple.com/xcode/) - IOs IDE
+* [Trello](https://trello.com/b/nOPd1jMy/sprint-1) - Online Kanban tool
+* [Discord](https://discordapp.com/) - Online chat application
 
 ## Authors
 
