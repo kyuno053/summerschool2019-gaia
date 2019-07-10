@@ -3,9 +3,13 @@
 # Astronomy data visualization Milky Way and integration radio astronomy Pulsar data
 
 ## Presentation
+TODO: script 1 desc
+[![script1](https://zupimages.net/up/19/28/vlrl.bmp)](https://www.youtube.com/watch?v=hJ8n_CsV6h8)
 
-TODO: Add videos
+TODO: script 2 desc
+[![script2](https://zupimages.net/up/19/28/3n23.bmp)](https://www.youtube.com/watch?v=HXVy8NHdVxs)
 
+TODO: script 3 desc
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
