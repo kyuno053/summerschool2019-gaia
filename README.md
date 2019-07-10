@@ -12,7 +12,10 @@ this script shows us all the planets presents in the solar system
 this script shows us planets orbit,and how it representation change while the focused planet change
 [![script2](https://zupimages.net/up/19/28/3n23.bmp)](https://www.youtube.com/watch?v=HXVy8NHdVxs)
 
-TODO: script 3 desc
+##### __Script 3 :__ Gaia Sky visual effects
+this script shows us some visual effects on gaia sky software
+[![script3](https://zupimages.net/up/19/28/ir8v.bmp)](https://www.youtube.com/watch?v=ND1Y06MIAf8&feature=youtu.be)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
