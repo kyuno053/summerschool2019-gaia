@@ -62,14 +62,16 @@ will not be able to run the script until these errors are dealt with.
 
 ## The coordinate system explained 
 
-The earth's center is used as reference object when locating other celestial bodies. This locating is done by using two variables. The first being right ascension and the second being declination. 
+<!--
+
+The earth's center is used as reference object when locating other celestial bodies. This locating is done by using two variables. The first being right ascension and the second being declination.
 
 The right ascension (α) is the coordinate from the equatorial coordinate system in the sky that has the same role as the longitude in other coordinate systems. The right ascension is usually measured not in degrees as the other longitudes are, but rather in units of time, such that 360 degrees correspond to 24 hours of right ascension.
 
 The declination (δ) in astronomy is comparable to geographic latitude, projected onto the celestial sphere.
 It basically means how far above or below the celestial equator. Points north of the celestial equator have positive declinations, while those south have negative declinations. It is customarily measured in the degrees ( ° ) with 90° equivalent to a quarter circle.
 
-When both are combined, these astronomical coordinates specify the direction of a point on the celestial sphere in the equatorial coordinate system
+When both are combined, these astronomical coordinates specify the direction of a point on the celestial sphere in the equatorial coordinate system" -->
 
 ## Built With
 
