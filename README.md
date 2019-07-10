@@ -1,6 +1,10 @@
+![header](https://zupimages.net/up/19/28/16vk.bmp)
+
 # Astronomy data visualization Milky Way and integration radio astronomy Pulsar data
 
-blablabla 
+## Presentation
+
+TODO: Add videos
 
 ## Getting Started
 
