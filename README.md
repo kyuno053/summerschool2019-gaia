@@ -3,10 +3,13 @@
 # Astronomy data visualization Milky Way and integration radio astronomy Pulsar data
 
 ## Presentation
-TODO: script 1 desc
+
+##### __Script 1 :__ Galaxy tour
+this script shows us all the planets presents in the solar system
 [![script1](https://zupimages.net/up/19/28/vlrl.bmp)](https://www.youtube.com/watch?v=hJ8n_CsV6h8)
 
-TODO: script 2 desc
+##### __Script 2 :__ Orbit overview
+this script shows us planets orbit,and how it representation change while the focused planet change
 [![script2](https://zupimages.net/up/19/28/3n23.bmp)](https://www.youtube.com/watch?v=HXVy8NHdVxs)
 
 TODO: script 3 desc
