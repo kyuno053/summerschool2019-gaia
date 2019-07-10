@@ -1,6 +1,9 @@
 from gaia.cu9.ari.gaiaorbit.script import EventScriptingInterface
 
 gs = EventScriptingInterface.instance()
+
+gs.setFov(42.0)
+
 starBrightness=gs.getStarBrightness();
 def focusOn(obj, rotationSpeed, distance):
     gs.setCameraFocus(obj);
