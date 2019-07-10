@@ -74,4 +74,4 @@ Gaia Sky
 * **Céline MARIN** - [GitHub](https://github.com/GeekyGodess)
 * **Kostis Thanos** - [GitHub](https://github.com/kostis95)
 * **Nicolas LEFEBVRE** - [GitHub](https://github.com/kyuno053) 
-* **HyunJun Moon** -[GitHub](https://github.com/mthekid)
+* **HyunJun Moon** - [GitHub](https://github.com/mthekid)
