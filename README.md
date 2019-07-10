@@ -82,9 +82,10 @@ It basically means how far above or below the celestial equator. Points north of
 
 When both are combined, these astronomical coordinates specify the direction of a point on the celestial sphere in the equatorial coordinate system" -->
 
-## Built With
+## Used tool
 
-Gaia Sky
+This is the list of all used tool used in this course
+
 * [PyCharm](https://www.jetbrains.com/pycharm/?fromMenu) - JetBrain's Python IDE
 * [Intellij Idea](https://www.jetbrains.com/idea/?fromMenu) - JetBrain's Java IDE
 * [Xcode](https://developer.apple.com/xcode/) - IOs IDE
