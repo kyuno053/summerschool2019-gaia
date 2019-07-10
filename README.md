@@ -64,6 +64,9 @@ right away by clicking on the Run button. If the script contains errors, you wil
 will not be able to run the script until these errors are dealt with.
 
 ## The coordinate system explained 
+The coordinate system used in Gaia Sky is the galactic coordinate system. In this celestial coordinate system, the Sun is at its center.In this coordinate system, the primary is aligned with the center of the Milky Way and the fundamental plane parallel to an approximation of the galactic plane but offset to its north.The convention used is the right-handed convention.
+Galactic Latitude: it is like the Earth's Equator, so it is at 0° latitude
+Galactic Longitude: galactic coordinates go from 0 to 360°.
 
 <!--
 
