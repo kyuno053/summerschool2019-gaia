@@ -199,6 +199,6 @@ This is the list of all used tool used in this course
 
 * **Kevin OGIER** - [GitHub](https://github.com/KevinOGIER)
 * **Céline MARIN** - [GitHub](https://github.com/GeekyGodess)
-* **Kostis Thanos** - [GitHub](https://github.com/kostis95)
+* **Kostis THANOS** - [GitHub](https://github.com/kostis95)
 * **Nicolas LEFEBVRE** - [GitHub](https://github.com/kyuno053) 
-* **HyunJun Moon** - [GitHub](https://github.com/mthekid)
+* **Moon HYUNJUN** - [GitHub](https://github.com/mthekid)
