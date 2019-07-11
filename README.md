@@ -83,7 +83,7 @@ It basically means how far above or below the celestial equator. Points north of
 When both are combined, these astronomical coordinates specify the direction of a point on the celestial sphere in the equatorial coordinate system" -->
 ## Data in Gaia Sky
 Gaia Sky software uses data from Gaia space sensor.
-These data are stored in a [ADQL](http://gea.esac.esa.int/archive-help/index.html) database , which is a [SQL](https://www.w3schools.com/sql/) based query language
+These data are stored in a [ADQL](http://gea.esac.esa.int/archive-help/index.html) [database](https://gea.esac.esa.int/archive/) , which is a [SQL](https://www.w3schools.com/sql/) based query language
 
 #### FIg1: ADQL Query to get Earth data from database
 ```sql
