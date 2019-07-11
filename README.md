@@ -69,6 +69,12 @@ The scripts are in Python.
 For macOs, the scripts are in the following path :
 ` ~/Applications/Gaia Sky.app/Contents/java/app/scripts/tests`
 
+For Window (10) , the scripts could be in these following path :
+`C:\Users\User_Name\.gaiasky\script`
+or
+'Installation_path\Gaia Sky\scripts'
+
+
 ## The coordinate system explained 
 The coordinate system used in Gaia Sky is the galactic coordinate system. In this celestial coordinate system, the Sun is at its center.In this coordinate system, the primary is aligned with the center of the Milky Way and the fundamental plane parallel to an approximation of the galactic plane but offset to its north.The convention used is the right-handed convention.
 Galactic Latitude: it is like the Earth's Equator, so it is at 0° latitude
