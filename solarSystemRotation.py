@@ -1,3 +1,4 @@
+#Script created by AUAS 2019 summer school Gaia Sky 's team
 from gaia.cu9.ari.gaiaorbit.script import EventScriptingInterface
 
 gs = EventScriptingInterface.instance()
