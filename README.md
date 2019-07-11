@@ -1,5 +1,4 @@
 ![header](https://zupimages.net/up/19/28/16vk.bmp)
-
 # Astronomy data visualization Milky Way and integration radio astronomy Pulsar data
 
 ## Presentation
@@ -88,12 +87,20 @@ When both are combined, these astronomical coordinates specify the direction of 
 Gaia Sky software uses data from Gaia space sensor.
 These data are stored in a [ADQL](http://gea.esac.esa.int/archive-help/index.html) [database](https://gea.esac.esa.int/archive/) , which is a [SQL](https://www.w3schools.com/sql/) based query language
 
-#### FIg1: ADQL Query to get Earth data from database
+#### FIg1: ADQL Query to get Earth data from the raw database (to compare with the database of Gaia Sky)
 ```sql
 SELECT TOP 500 *
 FROM gaiadr2.gaia_source 
 WHERE CONTAINS(POINT('ICRS',gaiadr2.gaia_source.ra,gaiadr2.gaia_source.dec),CIRCLE('ICRS',252.779,-22.495,0.001388888888888889))=1
 ```
+
+In order to find the earth data :
+- On gaia sky we set a specific time (05/06/2019). We set this time because the data of the website were last updated on this date. Then We got the earth coordinates.
+- On the official website for Gaia, we use the ADQL (Astronomical Data Query Language) engine to search data.
+We choose to do a research by some specifics attributes (the earth coordinates). We got one result and we compare it with gaia sky data. 
+The data are the same. 
+![header](https://zupimages.net/up/19/28/16vk.bmp)
+
 
 The database store pre-processed data from Gaia space mission 
 #### Fig2: Earth data in Gaia's database
@@ -103,8 +110,9 @@ The database store pre-processed data from Gaia space mission
 | 1635721458409799680 | Gaia DR2 4125822829532278272 | 4125822829532278272 | 1600099805   | 2015.5    | 252.77937134039195 | 3.9160121182413254 | -22.494637735804137 | 1.7495751894073581 |          |                |                     |      |            |       |             | 0.117518395 |                  |              |               |                   |               |                |                    |                     |                 | 147                  | 0                    | 145                       | 2                        | 2.0251923          | 175.9183            | 0.0                      | 0.0                          | 3                         | false                    | 0.016501904           |                           |                                 | 0.117749624          | 17                               | 7                       | 6.6107693               | 0                         | 17                   | false             | 147          | 92.90657195063832 | 1.0685977026958142     | 86.94251                    | 20.76825        | 15            | 52.8415101386992  | 12.783109564327964      | 4.1336975                    | 21.043951        | 14            | 105.08394048720486 | 10.589616068984055      | 9.923301                     | 19.708078        | 1.6998308                | 0              | 1.3358727 | 0.27570152 | 1.0601711 |                 |                       | 0              |                  |                  |                  | NOT_AVAILABLE      | 358.3254924022692 | 13.749301875427319 | 254.12576459398673 | 6.596915387961713E-4 |             |          |                       |                       |         |                      |                      |                 |                              |                              |             |            |                         |                         |         |                      |                      | http://geadata.esac.esa.int/data-server/datalink/links?ID=4125822829532278272 |                      |
 
 
-But the Gaia Sky software can't use them directly. That's why processed data are used.
-These data are stored in Json or Csv files with a structure that could be use by the software
+But Gaia Sky software can't use them directly. That's why processed data are used.
+These data are stored in Json or Csv files with a structure that could be use by the software.
+
 
 #### Fig3: Earth data in Json dataset
 
