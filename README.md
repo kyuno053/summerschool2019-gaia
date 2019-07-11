@@ -68,7 +68,7 @@ will not be able to run the script until these errors are dealt with.
 The scripts are in Python.
 
 For macOs, the scripts are in the following path :
-` /Applications/Gaia Sky.app/Contents/java/app/scripts/tests`
+` ~/Applications/Gaia Sky.app/Contents/java/app/scripts/tests`
 
 ## The coordinate system explained 
 The coordinate system used in Gaia Sky is the galactic coordinate system. In this celestial coordinate system, the Sun is at its center.In this coordinate system, the primary is aligned with the center of the Milky Way and the fundamental plane parallel to an approximation of the galactic plane but offset to its north.The convention used is the right-handed convention.
@@ -76,7 +76,6 @@ Galactic Latitude: it is like the Earth's Equator, so it is at 0° latitude
 Galactic Longitude: galactic coordinates go from 0 to 360°.
 
 <!--
-
 The earth's center is used as reference object when locating other celestial bodies. This locating is done by using two variables. The first being right ascension and the second being declination.
 
 The right ascension (α) is the coordinate from the equatorial coordinate system in the sky that has the same role as the longitude in other coordinate systems. The right ascension is usually measured not in degrees as the other longitudes are, but rather in units of time, such that 360 degrees correspond to 24 hours of right ascension.
