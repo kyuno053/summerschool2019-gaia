@@ -81,6 +81,9 @@ The declination (δ) in astronomy is comparable to geographic latitude, projecte
 It basically means how far above or below the celestial equator. Points north of the celestial equator have positive declinations, while those south have negative declinations. It is customarily measured in the degrees ( ° ) with 90° equivalent to a quarter circle.
 
 When both are combined, these astronomical coordinates specify the direction of a point on the celestial sphere in the equatorial coordinate system" -->
+## Data in Gaia Sky
+
+TODO: explain data system in gaia sky
 
 ## Used tool
 
