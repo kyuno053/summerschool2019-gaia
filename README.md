@@ -96,6 +96,8 @@ When both are combined, these astronomical coordinates specify the direction of 
 Gaia Sky software uses data from Gaia space sensor.
 These data are stored in a [ADQL](http://gea.esac.esa.int/archive-help/index.html) [database](https://gea.esac.esa.int/archive/) , which is a [SQL](https://www.w3schools.com/sql/) based query language
 
+The Gaia Archive is the main point of access to the Gaia DR2 data (the data is also served from data the following centres CDS, ASDC, ARI and AIP). Data can be extracted from the Gaia Archive by performing ADQL queries and downloading the corresponding results tables. The Gaia DR2 data set is also downloadable in compressed CSV-format, but be aware that the downloadable file set exceeds 550 GB.
+
 #### FIg1: ADQL Query to get Earth data from the raw database (to compare with the database of Gaia Sky)
 ```sql
 SELECT TOP 500 *
