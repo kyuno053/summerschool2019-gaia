@@ -65,6 +65,10 @@ window will pop up allowing you to select the script you want to run. Once you h
 checked for errors. If no errors were found, you will be notified in the box below and you’ll be able to run the script
 right away by clicking on the Run button. If the script contains errors, you will be notified in the box below and you
 will not be able to run the script until these errors are dealt with.
+The scripts are in Python.
+
+For macOs, the scripts are in the following path :
+` /Applications/Gaia Sky.app/Contents/java/app/scripts/tests`
 
 ## The coordinate system explained 
 The coordinate system used in Gaia Sky is the galactic coordinate system. In this celestial coordinate system, the Sun is at its center.In this coordinate system, the primary is aligned with the center of the Milky Way and the fundamental plane parallel to an approximation of the galactic plane but offset to its north.The convention used is the right-handed convention.
