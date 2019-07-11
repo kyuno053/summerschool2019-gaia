@@ -99,7 +99,7 @@ In order to find the earth data :
 - On the official website for Gaia, we use the ADQL (Astronomical Data Query Language) engine to search data.
 We choose to do a research by some specifics attributes (the earth coordinates). We got one result and we compare it with gaia sky data. 
 The data are the same. 
-![header](https://zupimages.net/up/19/28/16vk.bmp)
+![header](https://zupimages.net/up/19/28/fji8.png)
 
 
 The database store pre-processed data from Gaia space mission 
