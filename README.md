@@ -71,8 +71,10 @@ For macOs, the scripts are in the following path :
 
 For Window (10) , the scripts could be in these following path :
 `C:\Users\User_Name\.gaiasky\script`
+
 or
-'Installation_path\Gaia Sky\scripts'
+
+`Installation_path\Gaia Sky\scripts`
 
 
 ## The coordinate system explained 
