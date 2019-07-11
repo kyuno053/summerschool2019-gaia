@@ -82,8 +82,97 @@ It basically means how far above or below the celestial equator. Points north of
 
 When both are combined, these astronomical coordinates specify the direction of a point on the celestial sphere in the equatorial coordinate system" -->
 ## Data in Gaia Sky
+Gaia Sky software uses data from Gaia space sensor.
+These data are stored in a [ADQL](http://gea.esac.esa.int/archive-help/index.html) database , which is a [SQL](https://www.w3schools.com/sql/) based query language
+The database store pre-processed data from Gaia space mission 
+#### Fig1: Earth data in Gaia's database
 
-TODO: explain data system in gaia sky
+| solution_id         | designation                  | source_id           | random_index | ref_epoch | ra                 | ra_error           | dec                 | dec_error          | parallax | parallax_error | parallax_over_error | pmra | pmra_error | pmdec | pmdec_error | ra_dec_corr | ra_parallax_corr | ra_pmra_corr | ra_pmdec_corr | dec_parallax_corr | dec_pmra_corr | dec_pmdec_corr | parallax_pmra_corr | parallax_pmdec_corr | pmra_pmdec_corr | astrometric_n_obs_al | astrometric_n_obs_ac | astrometric_n_good_obs_al | astrometric_n_bad_obs_al | astrometric_gof_al | astrometric_chi2_al | astrometric_excess_noise | astrometric_excess_noise_sig | astrometric_params_solved | astrometric_primary_flag | astrometric_weight_al | astrometric_pseudo_colour | astrometric_pseudo_colour_error | mean_varpi_factor_al | astrometric_matched_observations | visibility_periods_used | astrometric_sigma5d_max | frame_rotator_object_type | matched_observations | duplicated_source | phot_g_n_obs | phot_g_mean_flux  | phot_g_mean_flux_error | phot_g_mean_flux_over_error | phot_g_mean_mag | phot_bp_n_obs | phot_bp_mean_flux | phot_bp_mean_flux_error | phot_bp_mean_flux_over_error | phot_bp_mean_mag | phot_rp_n_obs | phot_rp_mean_flux  | phot_rp_mean_flux_error | phot_rp_mean_flux_over_error | phot_rp_mean_mag | phot_bp_rp_excess_factor | phot_proc_mode | bp_rp     | bp_g       | g_rp      | radial_velocity | radial_velocity_error | rv_nb_transits | rv_template_teff | rv_template_logg | rv_template_fe_h | phot_variable_flag | l                 | b                  | ecl_lon            | ecl_lat              | priam_flags | teff_val | teff_percentile_lower | teff_percentile_upper | a_g_val | a_g_percentile_lower | a_g_percentile_upper | e_bp_min_rp_val | e_bp_min_rp_percentile_lower | e_bp_min_rp_percentile_upper | flame_flags | radius_val | radius_percentile_lower | radius_percentile_upper | lum_val | lum_percentile_lower | lum_percentile_upper | datalink_url                                                                  | epoch_photometry_url |
+|---------------------|------------------------------|---------------------|--------------|-----------|--------------------|--------------------|---------------------|--------------------|----------|----------------|---------------------|------|------------|-------|-------------|-------------|------------------|--------------|---------------|-------------------|---------------|----------------|--------------------|---------------------|-----------------|----------------------|----------------------|---------------------------|--------------------------|--------------------|---------------------|--------------------------|------------------------------|---------------------------|--------------------------|-----------------------|---------------------------|---------------------------------|----------------------|----------------------------------|-------------------------|-------------------------|---------------------------|----------------------|-------------------|--------------|-------------------|------------------------|-----------------------------|-----------------|---------------|-------------------|-------------------------|------------------------------|------------------|---------------|--------------------|-------------------------|------------------------------|------------------|--------------------------|----------------|-----------|------------|-----------|-----------------|-----------------------|----------------|------------------|------------------|------------------|--------------------|-------------------|--------------------|--------------------|----------------------|-------------|----------|-----------------------|-----------------------|---------|----------------------|----------------------|-----------------|------------------------------|------------------------------|-------------|------------|-------------------------|-------------------------|---------|----------------------|----------------------|-------------------------------------------------------------------------------|----------------------|
+| 1635721458409799680 | Gaia DR2 4125822829532278272 | 4125822829532278272 | 1600099805   | 2015.5    | 252.77937134039195 | 3.9160121182413254 | -22.494637735804137 | 1.7495751894073581 |          |                |                     |      |            |       |             | 0.117518395 |                  |              |               |                   |               |                |                    |                     |                 | 147                  | 0                    | 145                       | 2                        | 2.0251923          | 175.9183            | 0.0                      | 0.0                          | 3                         | false                    | 0.016501904           |                           |                                 | 0.117749624          | 17                               | 7                       | 6.6107693               | 0                         | 17                   | false             | 147          | 92.90657195063832 | 1.0685977026958142     | 86.94251                    | 20.76825        | 15            | 52.8415101386992  | 12.783109564327964      | 4.1336975                    | 21.043951        | 14            | 105.08394048720486 | 10.589616068984055      | 9.923301                     | 19.708078        | 1.6998308                | 0              | 1.3358727 | 0.27570152 | 1.0601711 |                 |                       | 0              |                  |                  |                  | NOT_AVAILABLE      | 358.3254924022692 | 13.749301875427319 | 254.12576459398673 | 6.596915387961713E-4 |             |          |                       |                       |         |                      |                      |                 |                              |                              |             |            |                         |                         |         |                      |                      | http://geadata.esac.esa.int/data-server/datalink/links?ID=4125822829532278272 |                      |
+
+
+But the Gaia Sky software can't use them directly. That's why processed data are used.
+These data are stored in Json or Csv files with a structure that could be use by the software
+
+#### Fig2: Earth data in Json dataset
+
+```json
+{
+	"name" : "Earth",
+	"wikiname" :"Earth",
+	"color" : [0.13, 0.26, 0.89, 1.0],
+	"size" : 6371.1,
+	"ct" : "Planets",
+
+	"absmag" : -2.78,
+	"appmag" : -3.1,
+	
+	"parent" : "Sol", 
+	"impl" : "gaia.cu9.ari.gaiaorbit.scenegraph.Planet",
+	"refplane" : "ecliptic",
+	
+	"locvamultiplier" : 3.0,
+	"locthoverfactor" : 8.0,
+	
+	"coordinates" : {
+		        "impl" : "gaia.cu9.ari.gaiaorbit.util.coord.vsop87.EarthVSOP87",
+						"orbitname" : "Earth orbit"
+					},	
+		
+	"rotation" 		: {
+						"period" : 23.93447117,
+						"axialtilt" : -23.4392911,
+						"inclination" : 0.0,
+						"meridianangle" : 180.0
+						},
+						
+	"model"			: {
+						"args" : [true],
+						"type" : "sphere",
+						"params" : {
+									"quality" : 180,
+									"diameter" : 1.0,
+									"flip" : false
+									},
+						"texture" : {
+									"base" : "data/tex/base/earth-day*.jpg",
+									"specular" : "data/tex/base/earth-specular*.jpg",
+									"normal" : "data/tex/base/earth-normal*.jpg",
+									"night" : "data/tex/base/earth-night*.jpg",
+									}
+						},
+						
+	"cloud"         : {
+						"size" : 6390.0,
+						"cloud" : "data/tex/base/earth-cloud.jpg",
+
+						"params" : {
+									"quality" : 180,
+									"diameter" : 2.0,
+									"flip" : false
+									}
+					},
+									
+	"atmosphere" 	: {
+						"size" : 6450.0,
+						"wavelengths" : [0.65, 0.57, 0.475],
+						"m_Kr" : 0.0025,
+						"m_Km" : 0.0015,
+						"correctground" : true,
+						
+						"params" : {
+									"quality" : 180,
+									"diameter" : 2.0,
+									"flip" : true
+									}
+						}
+	}
+```
+
+Datasets are usually stored , and loaded in this way
+
+![data](https://zupimages.net/up/19/28/4r1q.png)
 
 ## Used tool
 
