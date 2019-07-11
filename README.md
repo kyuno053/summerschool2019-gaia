@@ -70,6 +70,7 @@ For macOs, the scripts are in the following path :
 ` ~/Applications/Gaia Sky.app/Contents/java/app/scripts/tests`
 
 For Window (10) , the scripts could be in these following path :
+
 `C:\Users\User_Name\.gaiasky\script`
 
 or
