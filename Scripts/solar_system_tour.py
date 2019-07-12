@@ -3,7 +3,7 @@
 from gaia.cu9.ari.gaiaorbit.script import EventScriptingInterface
 gs = EventScriptingInterface.instance()
 
-
+#Go to the object and turn around it
 def showAnObject( obj, msg ):
     gs.setHeadlineMessage(obj)
     gs.setSubheadMessage(msg)
@@ -14,23 +14,17 @@ def showAnObject( obj, msg ):
         gs.sleep(0.05)
     
     return;
-
+#Final zoom out to make an overview of the milky way
 def zoomOut():
     gs.setCameraFocus("Earth")
     gs.goToObject("Earth",0.0000000000005,5)
     return;
 
-# Disable input
-#gs.disableInput()
-#gs.cameraStop()
-#gs.minimizeInterfaceWindow()
-# Welcome
+# Disable GUI and setup the script
 gs.setVisibility("element.labels", False)
 gs.setCinematicCamera(True)
 gs.setHeadlineMessage("A long time ago in a galaxy far far away")
 gs.sleep(2)
-
-# Sun
 gs.setHeadlineMessage("Sun")
 gs.setSubheadMessage("This is our star, the Sun")
 gs.setCameraFocus("Sol")
