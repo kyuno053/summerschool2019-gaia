@@ -35,7 +35,7 @@ def interface(isOn):
         gs.disableInput()
         gs.cameraStop()
         gs.minimizeInterfaceWindow()
-        gs.setVisibility("element.labels", True);
+        gs.setVisibility("element.labels", True)
         gs.setCinematicCamera(True)
     return;
 
