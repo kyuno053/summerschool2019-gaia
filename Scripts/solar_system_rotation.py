@@ -5,7 +5,10 @@ gs = EventScriptingInterface.instance()
 
 gs.setFov(42.0)
 
+#Temp var to store current brightness
 starBrightness=gs.getStarBrightness();
+
+#Set the camera focus, speed and view distance on a object
 def focusOn(obj, rotationSpeed, distance):
     gs.setCameraFocus(obj);
     gs.goToObject(obj,distance);
@@ -16,6 +19,7 @@ def focusOn(obj, rotationSpeed, distance):
     gs.sleep(8);
     return;
 
+#Enable/Disable interface for the begining/ending of the script
 def interface(isOn):
     if isOn == True :
         gs.stopSimulationTime();
