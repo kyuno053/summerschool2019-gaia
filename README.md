@@ -69,7 +69,7 @@ The scripts are in Python.
 For macOs, the scripts are in the following path :
 ` ~/Applications/Gaia Sky.app/Contents/java/app/scripts/tests`
 
-For Window (10) , the scripts could be in these following path :
+For Window (10) , the scripts are either in these following paths :
 
 `C:\Users\User_Name\.gaiasky\script`
 
