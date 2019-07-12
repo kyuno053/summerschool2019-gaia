@@ -1,0 +1,149 @@
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+\documentclass[10pt,a4paper]{altacv}
+
+% Change the page layout if you need to
+\geometry{left=0.5cm,right=9cm,marginparwidth=7cm,marginparsep=1.2cm,top=0.75cm,bottom=0.5cm,footskip=2\baselineskip}
+
+% If using pdflatex:
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{lato}
+
+% colours
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Sepia}
+\colorlet{accent}{Mulberry}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+\usepackage[colorlinks]{hyperref}
+
+\begin{document}
+
+\name{Kevin OGIER}
+\tagline{IT ENGINEER }
+\photo{2.8cm}{profile.png}
+\personalinfo{
+  \email{kevin.ogier@protonmail.com }
+  \phone{+33 6 49 74 70 50}
+  \mailaddress{5 rue de la Tisonnière (porte 69), Laval 53000}
+  \location{France}
+  \linkedin{linkedin.com/in/kevin-ogier-770090130/}
+  \github{github.com/KevinOGIER}
+}
+
+%% Make the header extend all the way to the right
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{IT ENGINER}{LACTALIS}{September 2018  -- Ongoing}{Laval,FRANCE}
+\begin{itemize}
+\item Design, implementation and testing of new operational solutions 
+\item Deployment of existing solutions within the Group  
+\item Operational reporting (definition, creation, monitoring)\\
+\vspace{\baselineskip}
+\textit{Technical environment :}\\ 
+     Databases (SQL, Access), Programming (VBA), Script (VBS, PowerShell), Network settings, Excel
+\end{itemize}
+
+\divider
+\cvevent{TOTAL}{ANALYST DEVELOPER}{September 2017 -- September 2018}{Pau,FRANCE}
+\begin{itemize}
+\item \textit{Database} \\
+        Administration of the Total subsidiaries database (Access 2013)\\
+        Complete redevelopment (user interface, queries, code)\\
+        Industrialization of data import / export interfaces\\
+        Implementation of PowerBI reporting\\
+\vspace{\baselineskip}
+\item \textit{Development of a budget collection and calculation tool} \\
+        Collection of needs, Tests, Implementation \\
+        Technology to define
+\end{itemize}
+
+\divider
+\cvevent{MALTEM INSIGHT PERFORMANCE}{ANALYST DEVELOPER  (internship)}{April -- June 2017}{Bayonne,FRANCE}
+    C\# redesign of an internal application (allowing connection to the remote client) which is difficult to maintain due to the programming language (VB.NET) no longer used in the company. 
+    \vspace{\baselineskip}
+
+\begin{itemize}
+\item \textit{Application main features:}\\
+        Connection to internal databases (Postgres - 1 / client, MySQL)\\
+        Remote connection (VNC, TSE, Putty, WinSCP, VMWare)\\
+        Analysis of measures taken at clients\\
+\vspace{\baselineskip}
+\textit{Technical environment:}\\
+        Visual Studio .NET / Visual Studio / Git / Scrum (2 weeks sprints)
+\end{itemize}
+
+\divider
+\cvevent{TOTAL}{HR Assistant}{July 2013}{Pau,FRANCE}
+    Summer work: assigned to the international management to assist the impatriates with their installation in France.
+\divider
+\clearpage
+\cvsection[page2sidebar]{Education and Qualification}
+
+\cvevent{Engineering Diploma \textit{in Science and Technology}}{ESIEA (Ecole Supérieure d‘Informatique, Électronique, Automatique)}{Ongoing}{}
+\begin{itemize}
+\item Cybersecurity
+\item Big Data and Data Sciences 
+\item Software Architecture and Engineering 
+\item Telecom And Networks
+\item Embedded systems 
+\item Electronic, Automatic
+\item Computational complexity theory
+\item Management, English, ...
+\end{itemize}
+\divider
+
+\cvevent{Licence Pro (Bachelor) \textit{in Advanced Programming}}{Université de Pau et des Pays de l'Adour}{2017 -- 2018}{}
+\begin{itemize}
+\item Project Management, Agility 
+\item Big data, G.I.S 
+\item Distributed and Real-time Computing
+\item Advanced: \\
+            -   Software Design and Programming\\
+            -   Web Programming\\ 
+            -   Mobile App Development\\
+            \end{itemize}
+
+\cvevent{DUT (Associate’s Degree) \textit{in Computer Science}}{Institut Universitaire de Technologie de Bayonne et du Pays Basque}{2014 -- 2017}{}
+\begin{itemize}
+\item Algorithms and programming
+\item Software engineering
+\item Architecture, Systems and Networks 
+\item Computing projects
+\item Management
+\item Mathematics
+\item English, Law, Accounting, Communication
+\end{itemize}
+\divider
+
+\cvevent{Baccalauréat Scientifique SI\textit{(Engineering Sciences)}}{High School And Medium Schoo}{}{}
+        FRANCE (Pau)  \hspace{4.7cm}  Lycée Saint Cricq \\
+        UNITED ARAB EMIRATES (Abu Dhabi)  \hspace{1cm}  Lycée Louis Massignon \\
+        INDONESIA (Jakarta) \hspace{3.6cm} Lycée International Français \\
+        ANGOLA (Luanda) \hspace{4.1cm} Middle School\\
+\divider
+\medskip
+
+%\cvsection{A Day of My Life}
+% \wheelchart{outer radius}{inner radius}{
+% comma-separated list of value/text width/color/detail}
+%\wheelchart{1.5cm}{0.5cm}{%
+%  6/8em/accent!30/{Sleep}, 
+%  4/8em/accent!2/{Watching news},
+%  3/7em/accent!1/Talking with friends,
+%  8/8em/accent!40/Day time Job,
+%  2/10em/accent!20/Relaxation,
+%  5/6em/accent!5/Spending time with family
+%}
+\end{document}
