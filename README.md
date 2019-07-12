@@ -221,4 +221,4 @@ This is the list of all used tool used in this course
 * **Kostis THANOS** - [GitHub](https://github.com/kostis95)
 * **Nicolas LEFEBVRE** - [GitHub](https://github.com/kyuno053)
 * **Moon HYUNJUN** - [GitHub](https://github.com/mthekid)
-* **Lucas HERVOUET** - [GitHub](https://github.com/<insert_git_repo_here>)
+* **Lucas HERVOUET** - [GitHub](https://github.com/ChevreNeutron)
